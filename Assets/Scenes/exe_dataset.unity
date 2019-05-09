@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 297830755}
   - component: {fileID: 297830754}
   m_Layer: 5
-  m_Name: Dataset2
+  m_Name: SelectDataset2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,6 +506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boomerang: {fileID: 0}
   script_boomerang: {fileID: 0}
+  objName: 
 --- !u!114 &491986506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,7 +1231,7 @@ GameObject:
   - component: {fileID: 1970925564}
   - component: {fileID: 1970925567}
   m_Layer: 5
-  m_Name: Dataset1
+  m_Name: SelectDataset1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1438,7 +1439,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 502804783}
-          m_MethodName: clickButton
+          m_MethodName: clicPlaykButton
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1449,7 +1450,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 2047794845}
-          m_MethodName: OnClick
+          m_MethodName: onClick
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1552,8 +1553,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2047794839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb75ca0aec3b8d9429231277089d719b, type: 3}
+  m_Script: {fileID: 11500000, guid: af8ca81bca5d0544689f896fb124d0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boomerang: {fileID: 0}
   script_boomerang: {fileID: 0}
+  objName: 
