@@ -16,7 +16,8 @@ public class changeText : MonoBehaviour
          objName = this.gameObject.name;
     }
 
-    // Update is called once per frame
+    // onClick method is called when pushing a button
+    //This method change a button's text or a text explaining which dataset chose
     public void onClick()
     {
         if ("PlayButton"==objName)
