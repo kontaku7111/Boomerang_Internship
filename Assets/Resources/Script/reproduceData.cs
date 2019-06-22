@@ -128,7 +128,7 @@ public class reproduceData : MonoBehaviour
     }
 
     //perform if a user push a play button
-    public void clicPlaykButton()
+    public void clicPlayButton()
     {
         if (true == isDataset1||true==isDataset2)
         {
